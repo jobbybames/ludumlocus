@@ -485,3 +485,31 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+
+html, 
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body * {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1px;
+	background: #0BAFF4;
+}
+
+h1 * {
+	font-family: allura;
+	color: #0053FC;
+}
+
+header * {
+	position: fixed;
+	padding: 2em;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #888888; 
+}
